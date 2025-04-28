@@ -34,18 +34,13 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Roboto", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --mainColor: #a0a3a5;
+  --mainColor: #002136;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-.progress-bar {
-
-  background-color: gray !important;
 }
 
 html {
@@ -78,6 +73,11 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+.skill-icon {
+  width: 100px;
+  margin-top: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
