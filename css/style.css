@@ -34,7 +34,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Roboto", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --mainColor: #002136;
+  --mainColor: #00214e;
 }
 
 *,
@@ -9747,7 +9747,9 @@ h6,
 
 .name {
 
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  font-family: sans-serif;
+  -webkit-text-stroke: 2px #ffffff;
+
 }
 
 .btn {
