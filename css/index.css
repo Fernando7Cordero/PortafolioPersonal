@@ -1,0 +1,43 @@
+/* Contenedor de las cards */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las cards horizontalmente */
+    align-items: stretch; /* Asegura que todas las cards tengan la misma altura */
+}
+
+/* Cards */
+.card {
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que las imágenes no sobresalgan */
+    height: 100%; /* Permite que las cards se estiren uniformemente */
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido interno esté alineado verticalmente */
+}
+
+/* Imagen de la card */
+.card-img-top {
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que se vea bien */
+}
+
+/* Cuerpo de la card */
+.card-body {
+    flex-grow: 1; /* Permite que el cuerpo de la card ocupe el espacio restante */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye el contenido del cuerpo */
+}
+
+/* Botón */
+.card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
